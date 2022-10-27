@@ -1,1 +1,3 @@
-# CS520_Project
+# Finding Causality Link Between Mental Health and Substance Abuse
+
+Mental health illnesses and substance abuses problems both have stigma attached to them. People going through such incidences in life often find themselves without help or even hesitate to ask for help in cases where help is available. When observing the high correlation between the two conditions, the question arises, do mental health illnesses trigger substance abuse problem, or is it vice-versa? Or is it a feedback loop where the relationship is both ways? Establishing the causality between these variables would enable us to provide more effective treatment and address the root cause of this complex situation
