@@ -1,0 +1,19 @@
+strict digraph  {
+DrugUse;
+MentalHealth;
+Age;
+EmploymentStatus;
+Sex;
+IncomeLevel;
+UrbanRural;
+EducationLevel;
+DrugUse -> MentalHealth  [origin=learned, weight="0.3223161895355318"];
+Age -> MentalHealth  [origin=learned, weight="0.37382250466934147"];
+Age -> EmploymentStatus  [origin=learned, weight="0.29935199319812944"];
+Age -> EducationLevel  [origin=learned, weight="0.6744554452622066"];
+Sex -> EducationLevel  [origin=learned, weight="0.31959120279983033"];
+IncomeLevel -> EmploymentStatus  [origin=learned, weight="0.265652788154205"];
+EducationLevel -> EmploymentStatus  [origin=learned, weight="0.22482246214248297"];
+EducationLevel -> IncomeLevel  [origin=learned, weight="0.5704509645014354"];
+EducationLevel -> UrbanRural  [origin=learned, weight="0.7870140585730242"];
+}
